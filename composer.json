@@ -1,0 +1,29 @@
+{
+    "name": "nnthanh1996/alan-custom-customer-registration",
+    "description": "This is for my test task",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magento/framework": "103.0.*",
+        "magento/module-customer": "103.0.*"
+    },
+    "authors": [
+        {
+            "name": "Alan Nguyen",
+            "email": "nnthanh1996@gmail.com",
+            "role": "Magento Developer"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Alan\\CustomCustomerRegistration\\": ""
+        }
+    }
+}
+
